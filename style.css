@@ -35,10 +35,9 @@ fieldset {
 	background-color: lightblue;
 	border-radius: 20px;
 }
-legend {
+.inputArea h2 {
 	font-size: 20px;
-	padding-top: 50px;
-	text-shadow: 1px 1px 4px black;
+	text-shadow: 1px 1px 1px black;
 	color: rgb(7, 72, 212);
 }
 
