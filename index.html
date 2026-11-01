@@ -3,38 +3,52 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Sandbox Page</title>
+		<title>Project 01</title>
 		<link rel="stylesheet" href="style.css" />
 		<script src="main.js" defer></script>
 	</head>
 	<body>
-		<nav>
-			<a href="#home">Home</a>
-			<ul>
-				<li><a href="#one">One</a></li>
-				<li><a href="#two">Two</a></li>
-				<li><a href="#three">Three</a></li>
-			</ul>
-		</nav>
 		<header>
+			<nav>
+				<a href="#github">GitHub</a>
+				<ul>
+					<li><a href="#one">One</a></li>
+					<li><a href="#two">Two</a></li>
+					<li><a href="#three">Three</a></li>
+				</ul>
+			</nav>
 			<h1>Shopping List</h1>
 		</header>
 		<main>
-			<section class="content" id="section1">
-				<p>Shopping list: this will NOT save. It's just a prototype for now.</p>
-			</section>
-			<section class="content" id="section2">
+			<fieldset class="inputArea">
+				<legend>Looking to protect yourself, or deal some damage?</legend>
 				<div>
-					<h2>What to buy?</h2>
-					<input id="userInput" type="text" placeholder="Enter an item..." />
+					<label>
+						Food Item:
+						<input
+							id="food-input"
+							type="text"
+							placeholder="Only include tasty food!"
+					/></label>
+					<button id="food-butt">Add to List</button>
 				</div>
-				<button id="add-btn" type="button">Add to list</button>
-				<ul id="list"></ul>
-			</section>
-			<section></section>
-			<section></section>
-			<section></section>
+				<div>
+					<label>
+						Non-Food Items:<input
+							id="non-input"
+							type="text"
+							placeholder="Soap, paper products, etc"
+					/></label>
+					<button id="non-butt">Add to List</button>
+				</div>
+				<button id="remove">Removed checked items</button>
+			</fieldset>
+			<fieldset class="food-list">
+				<legend>Tasty Food Items:</legend>
+			</fieldset>
+			<fieldset class="non-list">
+				<legend>Non-Food Items:</legend>
+			</fieldset>
 		</main>
-		<footer></footer>
 	</body>
 </html>
