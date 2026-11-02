@@ -1,84 +1,84 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-	background: rgb(3, 32, 3);
+  background: rgb(3, 32, 3);
 }
 header {
-	background-color: rgb(112, 143, 120);
-	border: 1px solid black;
-	margin: 20px;
-	padding: 20px;
-	border-radius: 20px;
+  background-color: rgb(112, 143, 120);
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
 }
 nav {
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 nav a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 nav ul {
-	list-style: none;
-	display: flex;
-	gap: 30px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
 header h1 {
-	text-align: center;
+  text-align: center;
 }
 fieldset {
-	margin: 20px;
-	padding: 20px;
-	background-color: lightblue;
-	border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 20px;
 }
 .inputArea h2 {
-	font-size: 20px;
-	text-shadow: 1px 1px 1px black;
-	color: rgb(7, 72, 212);
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
+  color: rgb(7, 72, 212);
 }
 
 .inputArea {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .inputArea div {
-	line-height: 30px;
+  line-height: 30px;
 }
 .inputArea input {
-	width: 100%;
+  width: 100%;
 }
 #food-butt,
 #non-butt {
-	padding: 10px;
-	margin-top: 10px;
-	background-color: rgb(17, 75, 17);
-	border-style: none;
-	border-radius: 16px;
-	color: white;
-	box-shadow: 4px 4px 2px black;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(17, 75, 17);
+  border-style: none;
+  border-radius: 16px;
+  color: white;
+  box-shadow: 4px 4px 2px black;
 }
 #remove {
-	margin-top: 10px;
-	width: 100px;
-	padding: 10px;
-	border-radius: 20px;
-	background-color: rgb(131, 0, 0);
-	color: white;
-	border-style: none;
-	box-shadow: 4px 4px 2px black;
+  margin-top: 10px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(131, 0, 0);
+  color: white;
+  border-style: none;
+  box-shadow: 4px 4px 2px black;
 }
 
 .food-list,
 .non-list {
-	line-height: 30px;
+  line-height: 30px;
 }
 
 .selected-food {
-	text-decoration: line-through;
+  text-decoration: line-through;
 }
