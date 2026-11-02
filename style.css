@@ -16,6 +16,7 @@ header {
 nav {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 10px;
 }
 nav a {
 	text-decoration: none;
